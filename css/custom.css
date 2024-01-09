@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap');
+body{
+    font-family: 'Source Serif Pro', serif; 
+    font-weight: 500;  
+}
+.nav-item a{
+    font-family: 'Philosopher', serif !important;
+    font-weight: 600;
+}
+.section-marginTop{
+    margin-top: 80px;
+}
+.nav-font{
+    color: black !important;
+}
+
+.nav-logo{
+    width: 130px;
+    height: auto;
+}
+
+.nav-before{
+    background-color: white !important;
+}
+
+.top-navbar{
+     display: flex;
+     justify-content: space-around;
+     background-color: #EBEFF5;
+     padding: 10px 0;
+     
+}
+.navbar-brand span{
+    font-size: 25px;
+    font-weight: 900;
+    background-color: #FDD700;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+.top-navbar div a{
+    font-weight: 500;
+    
+}
+.fixed-top {
+    top: 44px;
+  }
+
+.normal-btn{
+    border-radius: 10px !important;
+    padding-left: 15px !important;
+    padding-right: 20px!important;
+    background-color: #FDD700!important;
+    /* color: white!important; */
+    font-weight: 600!important;
+}
+
+.normal-btn:hover{
+    background-color: #4C4A4A!important;
+    color: white;
+}
+
+.normal-btn-outline{
+    border-radius: 5px !important;
+    padding-left: 20px !important;
+    padding-right: 20px!important;
+    background-color: #FDD700!important;
+    color:  #000000! important;
+    font-weight: 400!important;
+    border: 0.5px solid  #FDD700! important;
+}
+
+.normal-btn-outline:hover{
+    color:  white ! important;
+    background-color: #4C4A4A! important;
+    border: 0.5px solid  #4C4A4A! important;
+}
+.wt-container{
+    padding: 0 !important;
+    /* padding-top: 15px !important; */
+}
+.navbar{
+    padding: 20px 0;
+}
+.yt-wrapper{
+    width: 100%;
+    height: 83vh;
+}
+
+
+.top-banner-img{
+    width: 80%;
+    height: auto;
+}
+.top-banner-title{
+    color: black !important;
+    font-size: 32px;
+}
+.top-banner-subtitle{
+    color: #6E6E6E !important;
+    font-size: 18px;
+}
+.top-banner-subtitle2{
+    color: #FF2D20!important;
+    font-size: 18px;
+}
+
+.section-title{
+    color: black !important;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.section-subtitle{
+    margin-bottom: 30px;
+    color: #6E6E6E !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.service-card-logo{
+    width: 100% !important;
+    height: 150px;
+}
+
+.service-card-title{
+    color: #ffffff!important;
+    font-size: 22px;
+    font-weight: 800;
+}
+.review-title, .contact-title{
+    color: #000000 !important;
+}
+.service-card-subTitle{
+    
+    font-weight: 500;
+    font-size: 14px;
+    color: wheat;
+}
+.service-card{
+    border-radius: 2px !important;
+    height: 320px;
+    background-color: #020202;
+    
+}
+.card-project{
+    color: #020202 !important;
+}
+.card-project-sub{
+    color: #020202 !important;
+}
+.card-content{
+    padding: 20px;
+}
+
+
+
+.thumbnail-container {
+    position: relative;
+    width: 100% !important;
+    height: auto;
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: black;
+}
+.thumbnail-image {
+    opacity: 1;
+    display: block;
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.thumbnail-middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.thumbnail-middle h3{
+    color: white;
+    font-weight: 600;
+}
+.thumbnail-middle p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.thumbnail-container:hover .thumbnail-image {
+    opacity: 0.1;
+}
+.thumbnail-container:hover .thumbnail-middle {
+    opacity: 1;
+
+}
+
+.thumbnail-title{
+    color: white !important;
+    font-size: 22px;
+    font-weight: 400;
+}
+.thumbnail-subtitle{
+    color: white !important;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.parallax {
+    background-image: url("../images/banner.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.review-img {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    margin: 0px auto!important;
+}
+
+.footer-text{
+    color: black !important;
+    font-size: 14px;
+    font-weight: 300;
+}
+.rights-text{
+    color: white !important;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+.form-control{
+    color: black !important;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 2px !important;
+}
+
+.form-control:focus{
+    border-color: #FDD700!important;
+    box-shadow: none !important;
+    border-radius: 2px !important;
+}
+
+.contact-form{
+    margin-top: 70px !important;
+}
+.help-line-title{
+    margin-top: 90px;
+    color: rgb(0, 0, 0) !important;
+    font-size: 32px !important;
+    font-weight: 800 ;
+}
+
+.icon-custom-color{
+    color:  #FDD700!important;
+}
+.page-top-img{
+     width: 50px;
+     height: auto;
+}
+.page-top-title{
+    color: black !important;
+    font-size: 18px !important;
+    font-weight: 400 ;
+}
+
+/* Video Service */
+.know-title {
+    margin-top: 50px;
+}
+.know-title h1{
+    font-family: "Philosopher", serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.card-image{
+    width: 100px;
+}
+.card-secondary{
+    border: none !important;
+    border-radius: 30px;
+}
+.card-title{
+    font-family: "Philosopher", serif;
+    font-weight: 800;
+    font-size: 24px;
+    
+}
+.card-body{
+    padding: 40px 30px 40px 40px;
+}
+.card-secondary:hover{
+    background-color: #c9ab00be;
+    
+    transition: all 1s;
+}
+.card-secondary{
+    background-color: #2F2F34;
+    color: white;
+}
+.video-project{
+    overflow: hidden;
+    border-radius: 30px;
+}
+.video-project iframe{
+    border-radius: 30px;
+}
+
+.video-project:hover iframe{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    transition: all 1s;
+}
+.facility-item{
+    padding: 20px;
+    border-radius: 30px;
+}
+.facility-item h3, p{
+    font-family: 'Philosopher', serif !important;
+}
+.facility-item h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.contact-button a{
+    font-family: 'Philosopher', serif !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 15px !important;
+}
+
+.get-start{
+    font-family: 'Philosopher', serif !important;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+.get-start h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.get-start a{
+    font-family: 'Philosopher', serif !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 15px !important;
+    background-color: #EBEFF5;
+    color: black;
+    margin-top: 30px;
+}
+.get-start a:hover{
+    background-color: #4C4A4A;
+    color: white;
+    transition: all .5s;
+}
+.card-fixed{
+    height: 350px;
+}
+.get-start div img{
+    margin-bottom: -200px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+ 
+    padding: 10px !important;
+    font-size: 42px !important;
+    margin: 0 20px;
+  }
+
+
+
+  /* Web Page */
+.web-hero-title{
+    font-family: 'Philosopher', serif !important;
+    text-align: right;
+}
+.web-hero-title p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.web-hero-title h1{
+    font-weight: 900;
+    font-size: 44px;
+}
+.request-btn{
+    font-family: 'Philosopher', serif !important;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 14px 33px;
+    border-radius: 15px !important;
+    background-color: #FDD700;
+    color: black;
+    margin-top: 25px;
+}
+.request-btn:hover{
+    background-color: #4C4A4A;
+    color: white;
+    transition: all .5s;
+}
+.web-project-title{
+    font-family: 'Philosopher', serif !important;
+    padding-top: 30px;
+    color: #ffffff;
+}
+.web-project-title h1{
+    font-weight: 900;
+    font-size: 44px;
+    
+}
+.web-project-title p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.web-poroject-img{
+    padding: 30px;
+    overflow: hidden;
+}
+.web-poroject-img:hover img{
+ -ms-transform: scale(1.1); /* IE 9 */
+-webkit-transform: scale(1.1); /* Safari 3-8 */
+transform: scale(1.1); 
+transition: all 1s;
+   
+}
+.web-poroject-img img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.card-body-web{
+    padding-bottom: 10px !important;
+    text-align: center;
+}
+.card-extra{
+    border-radius: 30px !important;
+    overflow: hidden;
+}
+.card-body-web{
+    height: 140px;
+}
+.card-body-web .card-title{
+    font-weight: 800;
+}
+
+/* Graphic Page */
+.card-image-only{
+    border-radius: 30px;
+    overflow: hidden;
+}
+.card-image-only img{
+    height: 280px;
+}
+.card-image-only:hover img{
+    -ms-transform: scale(1.1); /* IE 9 */
+-webkit-transform: scale(1.1); /* Safari 3-8 */
+transform: scale(1.1); 
+transition: all 1s;
+   
+}
+
+
+/* Contact Us */
+.contact-us-form{
+    margin: 20px 0;
+    width: 350px;
+}
+.contact-us-form h1{
+    padding-bottom: 20px;
+}
+.contact-us-form input{
+    border-radius: 30px !important;
+    padding: 22px 20px;
+    margin-bottom: 20px;
+}
+.contact-us-form input:focus{
+    border-radius: 30px !important;
+    padding: 22px 20px;
+    margin-bottom: 20px;
+}
+.option-dropdown{
+    width: 100%;
+    border-radius: 30px !important;
+    padding: 13px 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #595959;
+    font-size: 15px;
+}
+.option-dropdown:focus{
+    width: 100%;
+    border-radius: 30px !important;
+    padding: 13px 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #595959 !important;
+    font-size: 15px;
+}
+
+/* Responsive */
+.section-for-hide{
+    display: none !important;
+}
+.section-hide-small{
+    display: block;
+}
+
+.contact-btn{
+    font-family: 'Philosopher', serif !important;
+    font-weight: 700;
+    background-color: #EBEFF5;
+    color: black;
+}
+.contact-btn:hover{
+    background-color: #4C4A4A;
+    color: white;
+    transition: all .5s;
+}
+
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .section-for-hide{
+        display: block !important;
+    }
+    .section-hide-small{
+        display: none;
+    }
+    .card-fixed {
+        height: 400px;
+    }
+    .contact-us-form{
+        margin: 0;
+        padding: 0;
+    }
+    .contact-us-form h1{
+        margin: 0;
+        padding: 0;
+    }
+    .contact-us-form input{
+        margin: 10px 0;
+        padding: 12px 19px;
+        width: 100%;
+    }
+    .contact-us-form input:focus{
+        margin: 10px 0;
+        padding: 12px 19px;
+        width: 100%;
+    }
+    .option-dropdown{
+        margin: 10px 0;
+        padding: 10px 19px;
+        width: 100%;
+    }
+    .option-dropdown:focus{
+        margin: 10px 0;
+        padding: 0 19px;
+        width: 93%;
+    }
+    .web-hero-title{
+        float: left;
+    }
+    .main-form-filed{
+        margin-right: 50px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {} 
